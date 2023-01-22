@@ -8,12 +8,16 @@
 import Foundation
 
 struct Constants {
+    
     static let API_KEY = "ff7a6e432fe9c5185d8d3418d4581240"
     static let baseURL = "https://api.themoviedb.org"
+    
 }
 
 enum APIError: Error {
+    
     case failedTogetData
+    
 }
 
 class APICaller {
